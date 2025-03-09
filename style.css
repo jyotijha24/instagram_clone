@@ -11,14 +11,24 @@ body
     gap:70px;
     
 }
+.sidebar-main
+{
+    border-right: 2px solid rgb(218, 15, 15);
+    /* margin-left: 5px;
+    
+    height: 100%; */
+    position: relative;
+}
 .sidebar
 {
     border-right: 2px solid rgb(217, 215, 215);
-    margin-left: 25px;
-    width: 400px;
-    height: 100vh;
+    margin-left: 10px;
+    width: 240px;
+    height: 100%;
+    position: fixed;
      
 }
+
 
 .sidebar-icon
 {
@@ -64,6 +74,8 @@ body
     margin-top: 20px;
     /* margin-right: 100px; */
     /* border: 1px solid black; */
+    /* border-left: 1px solid black; */
+    margin-left: 250px;
 }
 .upeer-side
 {
@@ -71,7 +83,7 @@ body
     display: flex;
     /* border: 1px solid red; */
     /* justify-content: center; */
-    margin-left: 120px;
+    margin-left: 200px;
     
 }
 .googleimage
@@ -239,6 +251,8 @@ body
 {
     margin-top: 20px ;
     border-bottom: 1px solid gray;
+    width: 1000px;
+    margin-left: 100px;
 }
 .post
 {
